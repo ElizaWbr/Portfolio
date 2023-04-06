@@ -1,0 +1,17 @@
+{
+    // SIGNIN PAGE
+    "login": "Login",
+    "register": "Register",
+    "not-registered": "New here? Create an account.",
+    "already-registered": "Already have an account? Login.",
+    "reset-password": "Reset Password",
+    "forgot-password": "Forgot your password?",
+    "reset-password-description": "The application will send to your email an email that will change your password.",
+    "change-language": "Change language",
+
+    //REGISTER DATA
+    "email": "Email",
+    "password": "Password",
+    "full-name": "Full Name",
+    "confirm-password": "Confirm Password"
+}

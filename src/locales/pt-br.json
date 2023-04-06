@@ -1,0 +1,17 @@
+{
+    // SIGNIN PAGE
+    "login": "Entrar",
+    "register": "Registrar",
+    "not-registered": "Novo aqui? Crie uma conta.",
+    "already-registered": "Já tem uma conta? Entrar.",
+    "reset-password": "Redefinir a senha",
+    "forgot-password": "Esqueceu a senha?",
+    "reset-password-description": "O site enviará um email para o seu email com insttruções de como alterar a sua senha.",
+    "change-language": "Alterar idioma",
+
+    //REGISTER DATA
+    "email": "Email",
+    "password": "Senha",
+    "full-name": "Nome Completo",
+    "confirm-password": "Confirmar a Senha"
+}
