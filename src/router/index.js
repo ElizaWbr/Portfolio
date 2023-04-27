@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 // import firebase from 'firebase/compat/app';
 
 import SignInPage from '../views/SignInPage.vue'
-import HomeView from '../views/HomeView.vue'
+import HomePage from '../views/HomePage.vue'
 
 const routes = [
     {
@@ -32,12 +32,34 @@ const routes = [
         component: SignInPage,
     },
 
+    // HOME
     {
         path: '/home',
         name: 'home',
-        component: HomeView,
-
+        component: HomePage,
     },
+    {
+        path: '/aboutme',
+        name: 'aboutme',
+        component: HomePage,
+    },
+    {
+        path: '/myprojects',
+        name: 'myprojects',
+        component: HomePage,
+    },
+    {
+        path: '/finalpaper',
+        name: 'finalpaper',
+        component: HomePage,
+    },
+    {
+        path: '/mycontacts',
+        name: 'mycontacts',
+        component: HomePage,
+    },
+
+
 ]
         // meta: {
         // requiresAuth: true
