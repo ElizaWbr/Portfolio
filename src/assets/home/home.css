@@ -1,0 +1,104 @@
+/* GENERAL */
+.card__text-justify {
+    text-align: justify;
+}
+
+.home__card__content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+/* /GENERAL */
+
+/* ABOUT ME */
+.aboutme__languages {
+    height: 20px;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+/* /ABOUT ME */
+
+/* PROJECTS */
+.myprojects__card {
+    max-width: 30%;
+    min-width: 30%;
+    min-height: 450px;
+    max-height: 450px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myprojects__card__link {
+    max-width: 90%;
+    min-width: 90%;
+    max-height: 35%;
+    min-height: 35%;
+    margin-bottom: 16px;
+}
+
+.myprojects__card__image {
+    min-height: 100%;
+    display: flex;
+}
+
+/* /PROJECTS */
+
+/* FINAL PAPER */
+.finalpaper__card {
+    display: flex;
+}
+
+.finalpaper__card__img {
+    height: 300px;
+}
+
+.finalpaper__card__left {
+    width: 70%;
+}
+
+.finalpaper__card__right {
+    width: 30%;
+}
+
+/* /FINAL PAPER */
+
+/* CONTACTS */
+.mycontacts__logos {
+    width: 30px;
+    margin: 10px;
+}
+
+/* /CONTACTS */
+
+/* USER ACCOUNT */
+.usercard__content__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usercard__content__title {
+    font-family: 'Courier Prime Bold';
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #640abd, #ff80b4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    max-width: 35%;
+    min-width: 35%;
+}
+
+.usercard__content__edit {
+    max-width: 62%;
+    min-width: 62%;
+}
+
+/* /USER ACCOUNT */

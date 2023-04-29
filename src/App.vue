@@ -1,28 +1,33 @@
 <template>
   <v-app>
-    <!-- navbar aqui em cima -->
+    <!-- trocar depois pra aparecer só quando estiver atenticado -->
     <v-main class="main-class">
-      <router-view />
+      <div v-if="$route.path === '/login' || $route.path === '/register' || $route.path === '/resetpassword'">
+        <router-view />
+      </div>
+      <div class="app__background"
+        v-if="$route.path != '/login' && $route.path != '/register' && $route.path != '/resetpassword'">
+        <NavBar />
+        <div class="app__background__window">
+          <router-view />
+        </div>
+      </div>
     </v-main>
   </v-app>
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue'
 
 export default {
   name: 'App',
 
-  // components: {
-  //   SignInPage
-  // },
+  components: {
+    NavBar
+  },
 
   data: () => ({
     //
   }),
 }
 </script>
-<style>
-.main-class{
-  background-color: #e0d2ef;
-}
-</style>

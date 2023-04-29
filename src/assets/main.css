@@ -1,0 +1,54 @@
+/* FONTE */
+@font-face {
+    font-family: 'Courier Prime Regular';
+    src: url('@/fonts/Courier_Prime/CourierPrime-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Courier Prime Bold';
+    src: url('@/fonts/Courier_Prime/CourierPrime-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.page__title {
+    text-transform: uppercase;
+    font-family: 'Courier Prime Bold';
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(to right, #640abd, #ff80b4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.main-class {
+    background-color: #e0d2ef;
+    font-family: 'Courier Prime Regular';
+}
+
+.app__background {
+    height: 90%;
+    max-height: 90%;
+    width: 95%;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    position: fixed;
+}
+
+.app__background__window {
+    height: calc(100% - 60px);
+    position: absolute;
+    overflow-y: auto;
+    width: 100%;
+}
