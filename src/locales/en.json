@@ -8,10 +8,70 @@
     "forgot-password": "Forgot your password?",
     "reset-password-description": "The application will send to your email an email that will change your password.",
     "change-language": "Change language",
+    "logout": "Logout",
 
     //REGISTER DATA
     "email": "Email",
     "password": "Password",
     "full-name": "Full Name",
-    "confirm-password": "Confirm Password"
+    "confirm-password": "Confirm Password",
+
+    //TAB-COMPONENTS
+    "about-me": "About Me",
+    "projects": "Projects",
+    "final-page": "Final Paper",
+    "contact": "Contacts",
+    "user-account": "User Account",
+
+    // ABOUT ME
+    "aboutme-professionalinfo" : "Professional Info",
+
+    "aboutme-text-one-start" : "My name is Eliza Weber, I'm",
+
+    "aboutme-text-one" : "years old and I live in Portão, in Rio Grande do Sul. I studied elementary school at Sinodal Portão College and then continued my studies at the Federal Institute of Education, Science and Technology Sul-Rio-Grandense in Sapucaia do Sul, attending Integrated High School with a Technical IT Course that ended at the beginning of 2023.",
+
+    "aboutme-text-two" : "In 2022 I did a web programming internship at iNOV Sistemas in São Leopoldo and studied programming in external courses. I also have an intermediate/advanced level of English and I am always trying to improve my knowledge of foreign languages. I'm currently looking for a job in the front-end programming area, with the objective of growing and expanding my knowledge.",
+    
+
+    "aboutme-certificates" : "Certificates",
+    "aboutme-certificates-toefl" : "TOEFL Junior Certificate - 2018",
+    "aboutme-certificates-obi" : "Certificate of participation in the Brazilian Olympiad in Informatics (OBI) - 2019",
+    "aboutme-certificates-math-art" : "Certificate of participation in the Art in Mathematics teaching project - 2019",
+    "aboutme-certificates-vice" : "Certificate of Participation as Vice Class Leader in High School - 2019",
+    "aboutme-certificates-intern" : "Internship Achievement Certificate - 2022",
+    "aboutme-certificates-softblue" : "Softblue WEB Course Certificate - 2022",
+    "aboutme-certificates-fullstack-journey" : "Certificate of participation in the workshop Jornada FULL STACK: Creating a TikTok Clone! - 2023",
+
+    "aboutme-personalinfo" : "Personal Info",
+
+    "aboutme-text-three" : "In my free time i like to listen to some music, draw, make crafts and roller-skate. I have a very varied taste when it comes to the genre of series, movies and music.",
+
+    "aboutme-text-four" : "I like to use my creativity in my daily life to find solutions to my problems and to create new things. This portifolio was created whith the objective to show my programming skils and to promote the projects that i already have, but it was also thought of a way to pass visually some of my likes and a little bit of me as a person for anyone viewing the page.",
+
+    "aboutme-instagram" : "If you want to know more about my personal life, you can follow me on",
+
+    // MY PROJECTS
+    "series.show-description" : "This project was created in one of the programming subjects from the technical IT course from IFSul and I also used some of the knowledge learned in the Softblue WEB programming course.",
+
+    "tik-tok-project-title" : "TikTok Project",
+    "tik-tok-project-description" : "This project was built during EBAC's FULLSTACK JOURNEY where the TikTok application was used as the basis of the project. The objective was to create a clone of the application using React and integrating it with the Firebase Cloud Firestore database.",
+
+    "lpiii-project-title" : "LPIII Project",
+    "lpiii-project-description" : "PHP project from the Programming Language class.",
+
+    // FINAL PAPER
+    "final-paper-title" : "My IT Final Paper: SOS Helper",
+    "final-paper-text-one" : "In my last year in the IT course at the Federal Institute of Education, Science and Technology South Rio Grande, in 2023, a final paper was done. The work is called SOSHelper and had as main objective to provide the user assistance and easy access to entities that can help in difficult times such as car or domestic accidents, invasions, robberies, and other situations that need immediate attention.",
+    "final-paper-text-two" : "The system was implemented using VueJS which is a progressive framework for building user interfaces, based on HTML, CSS and JavaScript.",
+    "final-paper-link" : "Link to the final paper",
+
+    // CONTACT
+    "select-a-button" : "To get in touch, click on any of the buttons below",
+
+    // USER ACCOUNT
+    "my-account": "My Account",
+    "delete-account" : "Delete Account",
+    "save-changes" : "Save",
+    "feedback": "Feedback",
+    "leave-comment" : "Leave a comment below about this project and how it could be improved",
 }

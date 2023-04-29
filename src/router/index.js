@@ -58,6 +58,11 @@ const routes = [
         name: 'mycontacts',
         component: HomePage,
     },
+    {
+        path: '/useraccount',
+        name: 'useraccount',
+        component: HomePage,
+    },
 
 
 ]
