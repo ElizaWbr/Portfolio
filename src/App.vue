@@ -1,26 +1,33 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app>
+    <!-- trocar depois pra aparecer só quando estiver atenticado -->
+    <v-main class="main-class">
+      <div v-if="$route.path === '/login' || $route.path === '/register' || $route.path === '/resetpassword'">
+        <router-view />
+      </div>
+      <div class="app__background"
+        v-if="$route.path != '/login' && $route.path != '/register' && $route.path != '/resetpassword'">
+        <NavBar />
+        <div class="app__background__window">
+          <router-view />
+        </div>
+      </div>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar.vue'
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
-  }
+    NavBar
+  },
+
+  data: () => ({
+    //
+  }),
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

@@ -1,0 +1,77 @@
+{
+    // SIGNIN PAGE
+    "login": "Entrar",
+    "register": "Registrar",
+    "not-registered": "Novo aqui? Crie uma conta.",
+    "already-registered": "Já tem uma conta? Entrar.",
+    "reset-password": "Redefinir a senha",
+    "forgot-password": "Esqueceu a senha?",
+    "reset-password-description": "O site enviará um email para o seu email com insttruções de como alterar a sua senha.",
+    "change-language": "Alterar idioma",
+    "logout": "Sair",
+
+    //REGISTER DATA
+    "email": "Email",
+    "password": "Senha",
+    "full-name": "Nome Completo",
+    "confirm-password": "Confirmar a Senha",
+
+    //TAB-COMPONENTS
+    "about-me": "Sobre Mim",
+    "projects": "Projetos",
+    "final-page": "TCC",
+    "contact": "Contato",
+    "user-account": "Conta do Usuário",
+
+    // ABOUT ME
+    "aboutme-professionalinfo" : "Informações Profissionais",
+
+    "aboutme-text-one-start" : "Meu nome é Eliza Weber, tenho",
+
+    "aboutme-text-one" : "anos e moro na cidade de Portão, no Rio Grande do Sul. Estudei durante o ensino fundamental no colégio Sinodal Portão e depois continuei os meus estudos no Instituto Federal Sul-Rio-Grandense em Sapucaia do Sul, cursando o Ensino Médio Integrado com Curso Técnico em Informática que foi finalizado no início do ano de 2023.",
+
+    "aboutme-text-two" : "Em 2022 realizei um estágio de programação Web na empresa INOV Sistemas em São Leopoldo e estudei programação em cursos externos. Também possuo nível de inglês intermediário/avançado e assim como na área de programação estou sempre tentando evoluir meu conhecimento em linguas estrangeiras. Atualmente estou em busca de um trabalho na area de programação front-end, tendo como objetivo crescer na área e ampliar meu conhecimento em programação.",
+
+    "aboutme-certificates" : "Certificados",
+    "aboutme-certificates-toefl" : "Certificado do TOEFL Junior - 2018",
+    "aboutme-certificates-obi" : "Certificado de participação da Olimpíada Brasileira de Informática (OBI) - 2019",
+    "aboutme-certificates-math-art" : "Certificado de participação no projeto de ensino Arte na Matemática - 2019",
+    "aboutme-certificates-vice" : "Certificado de participação como vice-líder da turma no ensino médio - 2019",
+    "aboutme-certificates-intern" : "Certificado de realização de estágio - 2022",
+    "aboutme-certificates-softblue" : "Certificado de conclusão do curso WEB da Softblue - 2022",
+    "aboutme-certificates-fullstack-journey" : "Certificado de participação do workshop Jornada FULL STACK: Criando um clone do TikTok! - 2023",
+
+    "aboutme-personalinfo" : "Informações Pessoais",
+
+    "aboutme-text-three" : "No meu tempo livre gosto de fazer diversas coisas como escutar música, desenhar, fazer artesanato e patinar. Tenho um gosto muito variado quando se trata de gênero de séries, filmes e músicas.",
+
+    "aboutme-text-four" : "Gosto de usar minha criatividade no meu dia a dia para encontrar soluções para os problemas que enfrento e para criar coisas novas. Este portifólio foi feito com o objetivo de mostrar minhas habilidades de programação e divulgar os projetos que já tenho mas também foi pensado em uma forma de passar visualmente um pouco dos meus gostos e um pouco de mim para quem estivesse visualizando a página.",
+
+    "aboutme-instagram" : "Se quiser conhecer mais sobre minha vida pessoal você pode me seguir no",
+
+    // MY PROJECTS
+    "series.show-description" : "Esse projeto foi um trabalho realizado em uma das matérias de programação do curso técnico em informática do IFSul e também utilizei de alguns recursos que aprendi no curso de programação Web da SoftBlue.",
+
+    "tik-tok-project-title" : "PROJETO TIKTOK",
+    "tik-tok-project-description" : "Projeto realizado em conjunto com a JORNADA FULLSTACK da EBAC onde foi utilizado como base do projeto o aplicativo do TikTok. O objetivo do trabalho foi criar um clone do aplicativo utilizando React e realizando a sua integração com o banco de dados Firebase Cloud Firestore.",
+
+    "lpiii-project-title" : "TRABALHO DE LPIII",
+    "lpiii-project-description" : "Trabalho de PHP da aula Linguagem de Programação.",
+
+    // FINAL PAPER
+    "final-page-title" : "Meu TCC de Informática: SOS Helper",
+    "final-page-text-one" : "No meu último ano no curso de informática do Instituto Federal Sul-Rio-Grandense, em 2023, foi realizado um trabalho de conclusão de curso. O trabalho se chama SOSHelper teve como objetivo principal proporcionar ao usuário auxílio e fácil acesso a entidades que possam ajudar em momentos difíceis como acidentes de carro ou domésticos, invasões, roubos, entre outras situações que necessitem de atenção imediata.",
+    "final-page-text-two" : "O sistema foi implementado utilizando o VueJS que é um framework progressivo para a construção de interfaces de usuário, baseado em HTML, CSS e JavaScript.",
+    "final-page-link" : "Link para o trabalho escrito:",
+
+    // CONTACT
+    "contact" : "Contatos",
+    "select-a-button" : "Para entrar em contato clique em algum dos botões abaixo",
+
+    // USER ACCOUNT
+    "my-account": "Minha Conta",
+    "delete-account" : "Excluir Conta",
+    "save-changes" : "Salvar",
+    "feedback": "Avaliação",
+    "leave-comment" : "Deixe um comentário abaixo sobre o portifólio e como ele pode ser melhorado.",
+}
