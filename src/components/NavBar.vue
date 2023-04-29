@@ -1,22 +1,17 @@
 <template>
-    <TopNavBar/>
-    <!-- <TopNavBar/> -->
-    <BottomNavBar/>
-    <!-- <SignInNavBar/> -->
+  <TopNavBar />
+  <BottomNavBar />
 </template>
 
 <script>
-  // import SignInNavBar from '../components/signin/SignInNavBar.vue'
-  // import TopNavBar from '../components/navbar/TopNavBar.vue'
-  import BottomNavBar from '../components/navbar/BottomNavBar.vue'
+import BottomNavBar from '../components/navbar/BottomNavBar.vue'
+import TopNavBar from '../components/navbar/TopNavBar.vue'
 
-  import TopNavBar from '../components/navbar/TopNavBar.vue'
+import '../assets/navbar/navbar.css'
 
-  export default {
+export default {
 
   components: {
-    // SignInNavBar,
-    // TopNavBar,
     BottomNavBar,
     TopNavBar
   },

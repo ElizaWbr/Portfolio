@@ -6,7 +6,7 @@
         </div>
         <div class="signin__navBar__search">
             <span class="mdi mdi-magnify pl-2 pr-2"></span>
-            <span>ELIZA WEBER</span>
+            <v-card-text class="pa-0">ELIZA WEBER</v-card-text>
         </div>
         <div class="signin__navBar__icons">
             <router-link to="/login" class="mdi mdi-login-variant pl-3 signin__icons"
@@ -28,17 +28,10 @@ export default {
         LocaleSwitcher
     },
     data: () => ({
-        language: false,
-        abc: '',
         items: [
             { id: 'pt-br', title: 'Português', icon: 'mdi-phone' },
             { id: 'en', title: 'English', icon: 'mdi-phone' }
         ]
     }),
-    methods: {
-        changeLanguage(lang) {
-            console.log(lang)
-        }
-    }
 }
 </script>

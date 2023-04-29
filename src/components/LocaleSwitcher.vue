@@ -1,6 +1,5 @@
 <template>
-    <v-select class="locale-switcher" density="compact" hide-details variant="text" v-model="$i18n.locale" :items="items"
-        item-title="title" item-value="id" prepend-inner-icon="mdi-translate">
+    <v-select class="locale-switcher" density="compact" hide-details variant="text" v-model="$i18n.locale" :items="items" item-title="title" item-value="id" prepend-inner-icon="mdi-translate">
     </v-select>
 </template>
 
@@ -11,8 +10,8 @@ export default {
         return {
             locales: ["pt-br", "en"],
             items: [
-                { id: 'pt-br', title: 'Português', icon: 'mdi-phone' },
-                { id: 'en', title: 'English', icon: 'mdi-phone' }
+                { id: 'pt-br', title: 'Português' },
+                { id: 'en', title: 'English' }
             ]
         };
 
