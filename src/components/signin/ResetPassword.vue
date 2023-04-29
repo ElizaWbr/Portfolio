@@ -1,6 +1,6 @@
 <template>
     <div class="login-form">
-        <v-card-title class="signinCard__title">{{ $t('reset-password') }}</v-card-title>
+        <v-card-title class="page__title">{{ $t('reset-password') }}</v-card-title>
         <v-card class="mx-auto pa-8 signinCard__content" elevation="8" rounded="lg">
             <v-card-subtitle
                 class="white-space-normal mb-3">{{ $t('reset-password-description') }}</v-card-subtitle>

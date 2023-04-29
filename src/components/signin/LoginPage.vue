@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <v-card-title class="signinCard__title">{{ $t('login') }}</v-card-title>
+        <v-card-title class="page__title">{{ $t('login') }}</v-card-title>
         <v-card class="mx-auto pa-8 signinCard__content" elevation="8" rounded="lg">
             <v-text-field prepend-inner-icon="mdi-email-outline" variant="outlined" density="compact" v-model="email"
                 :placeholder="$t('email')" class="pb-4" hide-details>

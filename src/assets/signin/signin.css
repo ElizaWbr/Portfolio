@@ -129,7 +129,6 @@
     border: 1px solid #0d0d0d;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     font-size: 12px;
 }
 
@@ -141,22 +140,10 @@
 .signin__icons {
     text-decoration: none;
     color: black;
+    display: flex;
 }
 
 /* Login, Register and Reset Password */
-
-.signinCard__title {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    background-image: linear-gradient(to right, #640abd, #ff80b4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: black;
-    margin-bottom: 8px;
-}
 
 .signinCard__content {
     max-width: 448px;
