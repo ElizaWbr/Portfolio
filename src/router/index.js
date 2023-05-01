@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import firebase from 'firebase/compat/app';
+import firebase from 'firebase/compat/app';
 
 import SignInPage from '../views/SignInPage.vue'
 import HomePage from '../views/HomePage.vue'
@@ -34,56 +34,63 @@ const routes = [
 
     // HOME
     {
-        path: '/home',
-        name: 'home',
-        component: HomePage,
-    },
-    {
         path: '/aboutme',
         name: 'aboutme',
         component: HomePage,
+        meta: {
+            requiresAuth: true
+        }
     },
     {
         path: '/myprojects',
         name: 'myprojects',
         component: HomePage,
+        meta: {
+            requiresAuth: true
+        }
     },
     {
         path: '/finalpaper',
         name: 'finalpaper',
         component: HomePage,
+        meta: {
+            requiresAuth: true
+        }
     },
     {
         path: '/mycontacts',
         name: 'mycontacts',
         component: HomePage,
+        meta: {
+            requiresAuth: true
+        }
     },
     {
         path: '/useraccount',
         name: 'useraccount',
         component: HomePage,
+        meta: {
+            requiresAuth: true
+        }
     },
 
 
 ]
-        // meta: {
-        // requiresAuth: true
-        // }
 
 
-    const router = createRouter({
+const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
     routes
-    })
+})
 
-    // router.beforeEach((to, from, next) => {
-    // const currentUser = firebase.auth().currentUser;
-    // const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
+router.beforeEach((to, from, next) => {
+    const currentUser = firebase.auth().currentUser;
+    const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
 
-    // if (requiresAuth && !currentUser) next('login');
-    // else if (!requiresAuth && currentUser) next('home');
-    // else next();
-//});
+    if (requiresAuth && !currentUser) next('login');
+    else if (!requiresAuth && currentUser) next('aboutme');
+    else next();
+});
 
 
 export default router
