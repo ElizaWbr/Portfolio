@@ -9,20 +9,20 @@
             </v-card-text>
             <v-divider></v-divider>
             <v-card-actions class="d-flex justify-center align-center">
-                <a href="mailto:elizawebernha@gmail.com" title="enviar email">
+                <a href="mailto:elizawebernha@gmail.com" :title="$t('send-email')">
                     <v-img src="@/assets/logos/Gmail_Logo.svg" alt="Logo do Gmail" class="mycontacts__logos">
                     </v-img>
                 </a>
-                <a href="https://wa.me/+5551989232339" title="enviar mensagem">
+                <a href="https://wa.me/+5551989232339" :title="$t('whatsapp')">
                     <v-img src="@/assets/logos/Digital_Glyph_Green.svg" alt="Logo do WhatsApp"
                         class="mycontacts__logos">
                     </v-img>
                 </a>
-                <a href="https://github.com/ElizaWbr" title="acessar github">
+                <a href='https://github.com/ElizaWbr' :title="$t('github')">
                     <v-img src="@/assets/logos/github-mark.svg" alt="Logo do GitHub" class="mycontacts__logos">
                     </v-img>
                 </a>
-                <a href="https://www.linkedin.com/in/elizaweber" title="acessar linkedin">
+                <a href='https://www.linkedin.com/in/elizaweber' :title="$t('linkedin')">
                     <v-img src="@/assets/logos/LI-In-Bug.png" alt="Logo do LinkedIn" class="mycontacts__logos">
                     </v-img>
                 </a>
@@ -32,13 +32,27 @@
 </template>
 
 <script>
+import { collection, getDocs } from 'firebase/firestore'
+import { db } from '@/main.js'
+
 export default {
     data: () => ({
-        gmail: 'elizawebernha@gmail.com'
+        email: '',
+        cellphone: '',
+        github: '',
+        linkedin: '',
     }),
-    // components: {
-    //     LogoGmail
-    // },
+    async mounted(){
+        const querySnapshot = await getDocs(collection(db, 'personal-info/'));
+        querySnapshot.forEach((doc) => {
+            this.email = doc.data().email;
+            this.cellphone = doc.data().cellphone;
+            this.github = doc.github;
+            this.linkedin = doc.data().linkedin;
+            console.log(doc.data());
+            console.log(this.linkedin)
+        })
+    },
     methods: {
 
     }
