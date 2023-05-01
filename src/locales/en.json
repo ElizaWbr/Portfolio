@@ -9,6 +9,7 @@
     "reset-password-description": "The application will send to your email an email that will change your password.",
     "change-language": "Change language",
     "logout": "Logout",
+    "email-sent-message" : "Email sent! Check your inbox.",
 
     //REGISTER DATA
     "email": "Email",
@@ -67,6 +68,10 @@
 
     // CONTACT
     "select-a-button" : "To get in touch, click on any of the buttons below",
+    "github" : "Visit GitHub",
+    "linkedin" : "Visit linkedin",
+    "whatsapp" : "Send a Whatsapp message",
+    "send-email" : "Send Email",
 
     // USER ACCOUNT
     "my-account": "My Account",
@@ -74,4 +79,18 @@
     "save-changes" : "Save",
     "feedback": "Feedback",
     "leave-comment" : "Leave a comment below about this project and how it could be improved",
+
+    // DIALOGS
+    "change-enter-password" : "To save changes, enter your password.",
+    "delete-sure" : "Are you sure that you want to delete your account?",
+    "no" : "No",
+    "yes" : "Yes",
+    "delete-enter-password" : "To delete your account enter your password.",
+    "delete" : "Delete",
+
+    // VALIDATIONS
+    // "validation-required" : "This field cannot be empty.",
+    // "validation-email" : "This is not a valid email.",
+    // "validation-min-length" : "The password must have at least 6 characters.",
+    // "validation-same-as" : "Passwords don't match.",
 }

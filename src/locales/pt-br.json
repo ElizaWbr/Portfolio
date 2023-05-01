@@ -9,6 +9,7 @@
     "reset-password-description": "O site enviará um email para o seu email com insttruções de como alterar a sua senha.",
     "change-language": "Alterar idioma",
     "logout": "Sair",
+    "email-sent-message" : "Email enviado! Verifique a sua caixa de entrada.",
 
     //REGISTER DATA
     "email": "Email",
@@ -20,7 +21,7 @@
     "about-me": "Sobre Mim",
     "projects": "Projetos",
     "final-page": "TCC",
-    "contact": "Contato",
+    "contact": "Contatos",
     "user-account": "Conta do Usuário",
 
     // ABOUT ME
@@ -65,8 +66,11 @@
     "final-page-link" : "Link para o trabalho escrito:",
 
     // CONTACT
-    "contact" : "Contatos",
     "select-a-button" : "Para entrar em contato clique em algum dos botões abaixo",
+    "github" : "Acessar GitHub",
+    "linkedin" : "Acessar LinkedIn",
+    "whatsapp" : "Enviar mensagem no Whatsapp",
+    "send-email" : "Enviar Email",
 
     // USER ACCOUNT
     "my-account": "Minha Conta",
@@ -74,4 +78,18 @@
     "save-changes" : "Salvar",
     "feedback": "Avaliação",
     "leave-comment" : "Deixe um comentário abaixo sobre o portifólio e como ele pode ser melhorado.",
+
+    // DIALOGS
+    "change-enter-password" : "Para salvar as alterações digite a sua senha.",
+    "delete-sure" : "Você tem certeza que deseja excluir a sua conta?",
+    "no" : "Não",
+    "yes" : "Sim",
+    "delete-enter-password" : "Para deletar a sua conta digite a sua senha.",
+    "delete" : "Deletar",
+
+    // VALIDATIONS
+    // "validation-required" : "Esse campo não pode ficar vazio.",
+    // "validation-email" : "Este não é um email válido.",
+    // "validation-min-length" : "A senha deve ter no mínimo 6 caracteres.",
+    // "validation-same-as" : "As senhas não correspondem.",
 }
