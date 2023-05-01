@@ -18,6 +18,7 @@
 </template>
 
 <script>
+import firebase from 'firebase/compat/app';
 import LocaleSwitcher from '@/components/LocaleSwitcher.vue'
 
 export default {
@@ -31,13 +32,10 @@ export default {
         ]
     }),
     methods: {
-        // Logut: function() {
-        //     firebase.auth().signOut().then(() => {
-        //         this.$router.replace('login')
-        //     })
-        // }
-        Logout() {
-            console.log("logout")
+        Logout: function() {
+            firebase.auth().signOut().then(() => {
+                this.$router.replace('/login')
+            })
         }
     }
 }

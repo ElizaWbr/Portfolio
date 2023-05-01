@@ -1,4 +1,8 @@
 /* GENERAL */
+.project-font{
+    font-family: 'Courier Prime Regular';
+}
+
 .card__text-justify {
     text-align: justify;
 }
@@ -99,6 +103,21 @@
 .usercard__content__edit {
     max-width: 62%;
     min-width: 62%;
+}
+
+.save__dialog{
+    display: flex;
+    padding: 16px !important;
+}
+
+.dilogsure-button-yes{
+    min-width: 40%;
+}
+
+.dilogsure-button-no{
+    min-width: 40%;
+    font-family: 'Courier Prime Bold';
+    background-color: #b548b9;
 }
 
 /* /USER ACCOUNT */

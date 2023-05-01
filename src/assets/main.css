@@ -28,6 +28,7 @@
     -webkit-text-fill-color: transparent;
     color: black;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .main-class {
@@ -51,4 +52,12 @@
     position: absolute;
     overflow-y: auto;
     width: 100%;
+}
+
+.cardsubtitle {
+    margin-bottom: 12px;
+    display: flex !important;
+    justify-content: center;
+    position: relative;
+    white-space: normal !important;
 }

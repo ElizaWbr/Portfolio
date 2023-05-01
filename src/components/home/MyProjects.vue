@@ -36,6 +36,12 @@
             <v-card-text class="card__text-justify">
                 {{ $t('lpiii-project-description') }}
             </v-card-text>
+            <v-card class="myprojects__card__link" elevation="8" rounded="lg">
+                <a href="https://github.com/ElizaWbr/Trabalho-de-LPII-PHP" class="myprojects__card__image">
+                    <v-img cover src="@/assets/img/PHP_Project.png" alt="Projeto PHP no GitHub">
+                    </v-img>
+                </a>
+            </v-card>
         </v-card>
     </div>
 </template>

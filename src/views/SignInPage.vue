@@ -2,7 +2,6 @@
     <div>
         <div class="signin__background">
             <div class="signin__box">
-                <BackSignInBar />
                 <v-card class="signin__card">
                     <TopSingInBar />
                     <div class="signin__card__content">
@@ -29,7 +28,6 @@ import LoginPage from '@/components/signin/LoginPage.vue'
 import RegisterPage from '@/components/signin/RegisterPage.vue'
 import ResetPassword from '@/components/signin/ResetPassword.vue'
 
-import BackSignInBar from '@/components/signin/BackSignInBar.vue'
 import TopSingInBar from '@/components/signin/TopSingInBar.vue';
 import SignInNavBar from '@/components/signin/SignInNavBar.vue'
 
@@ -42,7 +40,6 @@ export default {
         LoginPage,
         RegisterPage,
         ResetPassword,
-        BackSignInBar,
         TopSingInBar,
         SignInNavBar
     },
