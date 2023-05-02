@@ -53,8 +53,5 @@ export default {
             console.log(this.linkedin)
         })
     },
-    methods: {
-
-    }
 }
 </script>

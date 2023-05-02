@@ -166,49 +166,47 @@ export default {
             this.state.userEmail = querySnapshot.data().email;
             this.userFeedback = querySnapshot.data().feedback;
             this.userRating = querySnapshot.data().rating;
-
-            console.log(querySnapshot.data());
     },
     methods: {
         ValidateData(action) {
             this.v$.$validate() // checks all inputs
             if (!this.v$.$error) {
                 // if ANY fail validation
-                console.log('Formulário Aprovado.')
                 if(action === 'validatechanges'){
-                    console.log("validando as mudanças")
+                    console.log("validating changes")
                     this.dialogPassword = true;
                 }else if(action==='change'){
-                    console.log("mudanças realizadas agora envia pro banco")
+                    console.log("sending changes to firebase")
                     this.SaveChanges();
                     this.dialogPassword = false;
                 }else if(action === 'deleteUser'){
+                    console.log("deleting user")
                     this.DeleteAccount();
                     this.dialogDelete = false;
                 }
-            } else {
+            } else if(action === 'validatechanges' && this.v$.$errors.length === 1 && this.v$.$errors[0].$uid === "userPassword-required"){
+                this.dialogPassword = true;
+            }else {
                 console.log(this.v$.$errors)
             }
         },
         async DeleteAccount() {
-            console.log("deletar")
             const user = auth.currentUser;
             const docRef = doc(db, "users", auth.currentUser.uid);
             firebase.auth()
             .signInWithEmailAndPassword(auth.currentUser.email, this.state.userPassword)
             .then (() => {
-                console.log('Senha do delete Aprovada')
                 deleteUser(user).then(() => {
-                    console.log('Usuário deletado')
+                    console.log('Account deleted')
                     deleteDoc(docRef);
                     this.$router.push('/login')
                 }).catch((error) => {
                     this.accountMessages = error
-                    console.log('Dados não excluidos' + error);
+                    console.log('Account not deleted' + error);
                 });
             }).catch((error) => {
                 this.accountMessages = error
-                console.log('Dados não excluidos' + error)
+                console.log('Account not deleted' + error)
             })
         },
         SaveChanges() {
@@ -216,9 +214,8 @@ export default {
             firebase.auth()
             .signInWithEmailAndPassword(auth.currentUser.email, this.state.userPassword)
             .then (() => {
-                console.log('Senha Aprovada')
                 updateEmail(auth.currentUser, newEmail).then(() => {
-                    console.log('Usuário alterado')
+                    console.log('User updated')
                     this.accountMessages = "Email updated!"
                     setDoc(doc(db, "users/" + auth.currentUser.uid), {
                         email: this.state.userEmail,
@@ -243,7 +240,7 @@ export default {
                 rating: this.userRating,
             });
 
-            console.log("salvar avaliação")
+            console.log("save feedback")
         }
     }
 

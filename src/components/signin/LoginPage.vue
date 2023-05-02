@@ -63,14 +63,13 @@ export default {
             this.v$.$validate() // checks all inputs
             if (!this.v$.$error) {
                 // if ANY fail validation
-                console.log('Formulário Aprovado.')
+                console.log('Approved form')
                 this.LoginUser();
             } else {
                 console.log(this.v$)
             }
         },
         LoginUser() {
-            console.log("Entrar " + this.state.userEmail + " " + this.state.userPassword);
             firebase.auth().signInWithEmailAndPassword(this.state.userEmail, this.state.userPassword)
             .then(() => {
                 this.$router.push('/aboutme')
