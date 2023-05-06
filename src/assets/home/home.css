@@ -31,16 +31,16 @@
 /* PROJECTS */
 
 .myprojects__background {
-    min-height: 540px;
-    max-height: 540px;
+    min-height: 480px;
+    max-height: 480px;
     width: 100%;
 }
 
 .myprojects__card {
     max-width: 30%;
     min-width: 30%;
-    min-height: 500px;
-    max-height: 500px;
+    min-height: 450px;
+    max-height: 450px;
     margin: 16px;
     display: flex;
     flex-direction: column;
