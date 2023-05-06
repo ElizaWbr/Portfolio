@@ -78,6 +78,7 @@
     "save-changes" : "Salvar",
     "feedback": "Avaliação",
     "leave-comment" : "Deixe um comentário abaixo sobre o portifólio e como ele pode ser melhorado.",
+    "login-required": "Para acessar esta página é necessário realizar o Login.",
 
     // DIALOGS
     "change-enter-password" : "Para salvar as alterações digite a sua senha.",

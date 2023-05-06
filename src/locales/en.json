@@ -79,6 +79,7 @@
     "save-changes" : "Save",
     "feedback": "Feedback",
     "leave-comment" : "Leave a comment below about this project and how it could be improved",
+    "login-required": "To access this page it's necessary to Login.",
 
     // DIALOGS
     "change-enter-password" : "To save changes, enter your password.",
