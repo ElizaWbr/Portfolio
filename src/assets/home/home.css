@@ -1,5 +1,5 @@
 /* GENERAL */
-.project-font{
+.project-font {
     font-family: 'Courier Prime Regular';
 }
 
@@ -29,11 +29,18 @@
 /* /ABOUT ME */
 
 /* PROJECTS */
+
+.myprojects__background {
+    min-height: 540px;
+    max-height: 540px;
+    width: 100%;
+}
+
 .myprojects__card {
     max-width: 30%;
     min-width: 30%;
     min-height: 500px;
-    max-height:500px;
+    max-height: 500px;
     margin: 16px;
     display: flex;
     flex-direction: column;
@@ -106,16 +113,16 @@
     min-width: 62%;
 }
 
-.save__dialog{
+.save__dialog {
     display: flex;
     padding: 16px !important;
 }
 
-.dilogsure-button-yes{
+.dilogsure-button-yes {
     min-width: 40%;
 }
 
-.dilogsure-button-no{
+.dilogsure-button-no {
     min-width: 40%;
     font-family: 'Courier Prime Bold';
     background-color: #b548b9;

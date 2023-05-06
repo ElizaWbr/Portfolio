@@ -1,5 +1,6 @@
 <template>
-    <div class="d-flex justify-center">
+    <div class="">
+    <div class="d-flex justify-center myprojects__background">
         <v-card class="myprojects__card">
             <v-card-title class="page__title pt-4">
                 Series.Show
@@ -79,7 +80,7 @@
             </v-card-text>
         </v-card>
     </div>
-    <div class="d-flex justify-center projects__background">
+    <div class="d-flex justify-center myprojects__background">
         <v-card class="myprojects__card">
             <v-card-title class="page__title pt-4">
                 {{ $t('portfolio-project-title') }}
@@ -110,4 +111,5 @@
             </v-card-text>
         </v-card>
     </div>
+</div>
 </template>
