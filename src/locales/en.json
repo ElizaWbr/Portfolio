@@ -52,14 +52,23 @@
     "aboutme-instagram" : "If you want to know more about my personal life, you can follow me on",
 
     // MY PROJECTS
-    "series.show-description" : "This project was created in one of the programming subjects from the technical IT course from IFSul and I also used some of the knowledge learned in the Softblue WEB programming course.",
+    "series.show-about" : "This project was created in one of the programming subjects from the technical IT course from IFSul and I also used some of the knowledge learned in the Softblue WEB programming course.",
+    "series.show-technologies" : "Technologies used: HTML and CSS.",
 
     "tik-tok-project-title" : "TikTok Project",
-    "tik-tok-project-description" : "This project was built during EBAC's FULLSTACK JOURNEY where the TikTok application was used as the basis of the project. The objective was to create a clone of the application using React and integrating it with the Firebase Cloud Firestore database.",
+    "tik-tok-project-about" : "This project was built during EBAC's FULLSTACK JOURNEY where the TikTok application was used as the basis of the project. The objective was to create a clone of the application using React and integrating it with the Firebase Cloud Firestore database.",
+    "tik-tok-project-technologies" : "Technologies used: React, Firebase, HTML, CSS e JavaScript.",
+    "tik-tok-project-description" : "Development: That was my first project using React, for this reason I had some difficulties in the beginning but nothing that was not quickly resolved with the documentation.",
 
     "lpiii-project-title" : "LPIII Project",
-    "lpiii-project-description" : "PHP project from the Programming Language class.",
+    "lpiii-project-about" : "PHP project from the Programming Language class.",
+    "lpiii-project-technologies" : "Technologies used: PHP, CSS e HTML.",
 
+    "portfolio-project-title" : "Portfolio",
+    "portfolio-project-about" : "This is the link to the GitHub repository where you can find the Portfolio's code.",
+    "portfolio-project-technologies" : "Technologies used: Vue, Vue-Router, Vuelidate, Vuetify, Vue-i18n, Firebase, CSS, JavaScript and HTML.",
+    "portfolio-project-description" : "Development: To program my portfolio I used Vue-i18n to be able to display it in two languages, Vue-Router to create the project routes, Vuetify was used to style the components and Vuelidate to validate forms such as account creation, email change and account deletion through the resources provided by Firebase that were integrated into the project using JavaScript. Some parts of this project are still under development, it is intended to implement form validations in Portuguese and also add Vuex for user control and token management.",
+    
     // FINAL PAPER
     "final-paper-title" : "My IT Final Paper: SOS Helper",
     "final-paper-text-one" : "In my last year in the IT course at the Federal Institute of Education, Science and Technology South Rio Grande, in 2023, a final paper was done. The work is called SOSHelper and had as main objective to provide the user assistance and easy access to entities that can help in difficult times such as car or domestic accidents, invasions, robberies, and other situations that need immediate attention.",
