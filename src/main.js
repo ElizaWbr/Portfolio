@@ -9,6 +9,7 @@ import firebase from 'firebase/compat/app'
 import {getFirestore} from 'firebase/firestore'
 import 'firebase/compat/auth'
 import 'firebase/compat/firestore'
+import { getStorage } from "firebase/storage";
 
 import '@/assets/main.css'
 
@@ -27,6 +28,7 @@ const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const db = getFirestore(firebaseApp);
 const auth = firebase.auth();
+const storage = getStorage(firebaseApp);
 
 createApp(App)
   .use(i18n)
@@ -34,4 +36,4 @@ createApp(App)
   .use(vuetify)
   .mount('#app')
 
-  export { auth, db }
+  export { auth, db, storage }

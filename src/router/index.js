@@ -1,5 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import firebase from 'firebase/compat/app';
+import { createRouter, createMemoryHistory } from 'vue-router'
 
 import SignInPage from '../views/SignInPage.vue'
 import HomePage from '../views/HomePage.vue'
@@ -7,11 +6,11 @@ import HomePage from '../views/HomePage.vue'
 const routes = [
     {
         path: '/:pathMatch(.*)*',
-        redirect: '/login'
+        redirect: '/aboutme'
     },
     {
         path: '/',
-        redirect: '/login'
+        redirect: '/aboutme'
     },
 
     // INÍCIO
@@ -37,41 +36,26 @@ const routes = [
         path: '/aboutme',
         name: 'aboutme',
         component: HomePage,
-        meta: {
-            requiresAuth: true
-        }
     },
     {
         path: '/myprojects',
         name: 'myprojects',
         component: HomePage,
-        meta: {
-            requiresAuth: true
-        }
     },
     {
         path: '/finalpaper',
         name: 'finalpaper',
         component: HomePage,
-        meta: {
-            requiresAuth: true
-        }
     },
     {
         path: '/mycontacts',
         name: 'mycontacts',
         component: HomePage,
-        meta: {
-            requiresAuth: true
-        }
     },
     {
         path: '/useraccount',
         name: 'useraccount',
         component: HomePage,
-        meta: {
-            requiresAuth: true
-        }
     },
 
 
@@ -79,18 +63,8 @@ const routes = [
 
 
 const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    history: createMemoryHistory(),
     routes
 })
-
-router.beforeEach((to, from, next) => {
-    const currentUser = firebase.auth().currentUser;
-    const requiresAuth = to.matched.some(record => record.meta.requiresAuth);
-
-    if (requiresAuth && !currentUser) next('login');
-    else if (!requiresAuth && currentUser) next('aboutme');
-    else next();
-});
-
 
 export default router

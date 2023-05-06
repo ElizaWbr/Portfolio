@@ -11,7 +11,11 @@
             </v-card-text>
         </div>
         <div class="navbar__bottom__icons">
-            <button @click="Logout()" class="mdi mdi-logout-variant pl-3 signin__icons" :title="$t('logout')"></button>
+            <button v-if="userLoggedIn" @click="Logout()" class="mdi mdi-logout-variant pl-3 signin__icons" :title="$t('logout')"></button>
+            <router-link v-if="!userLoggedIn" to="/login" class="mdi mdi-login-variant pl-3 signin__icons"
+            :title="$t('already-registered')"></router-link>
+            <router-link v-if="!userLoggedIn" to="/register" class="mdi mdi-account-plus-outline pl-3 signin__icons"
+            :title="$t('not-registered')"></router-link>
             <LocaleSwitcher />
         </div>
     </div>
@@ -20,17 +24,22 @@
 <script>
 import firebase from 'firebase/compat/app';
 import LocaleSwitcher from '@/components/LocaleSwitcher.vue'
+import { auth } from '@/main.js'
 
 export default {
     components: {
         LocaleSwitcher
     },
     data: () => ({
-        items: [
-            { id: 'pt-br', title: 'Português', icon: 'mdi-phone' },
-            { id: 'en', title: 'English', icon: 'mdi-phone' }
-        ]
+        userLoggedIn: false,
     }),
+    async mounted(){
+        if(auth.currentUser === null){
+            this.userLoggedIn = false;
+        }else{
+            this.userLoggedIn = true;
+        }
+    },
     methods: {
         Logout: function() {
             firebase.auth().signOut().then(() => {

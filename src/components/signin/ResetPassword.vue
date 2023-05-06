@@ -55,15 +55,13 @@ export default {
         ValidateData() {
             this.v$.$validate() // checks all inputs
             if (!this.v$.$error) {
-                // if ANY fail validation
-                console.log('Formulário Aprovado.')
+                console.log('Approved form')
                 this.SendResetEmail();
             } else {
                 console.log(this.v$)
             }
         },
         SendResetEmail() {
-            console.log("Recuperar email " + this.state.userEmail + " ");
             sendPasswordResetEmail(auth, this.state.userEmail)
             .then(() => {
                 this.emailSentMessage = true;

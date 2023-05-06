@@ -6,7 +6,7 @@
     "already-registered": "Já tem uma conta? Entrar.",
     "reset-password": "Redefinir a senha",
     "forgot-password": "Esqueceu a senha?",
-    "reset-password-description": "O site enviará um email para o seu email com insttruções de como alterar a sua senha.",
+    "reset-password-description": "O site enviará um email para o seu email com instruções de como alterar a sua senha.",
     "change-language": "Alterar idioma",
     "logout": "Sair",
     "email-sent-message" : "Email enviado! Verifique a sua caixa de entrada.",
@@ -31,7 +31,7 @@
 
     "aboutme-text-one" : "anos e moro na cidade de Portão, no Rio Grande do Sul. Estudei durante o ensino fundamental no colégio Sinodal Portão e depois continuei os meus estudos no Instituto Federal Sul-Rio-Grandense em Sapucaia do Sul, cursando o Ensino Médio Integrado com Curso Técnico em Informática que foi finalizado no início do ano de 2023.",
 
-    "aboutme-text-two" : "Em 2022 realizei um estágio de programação Web na empresa INOV Sistemas em São Leopoldo e estudei programação em cursos externos. Também possuo nível de inglês intermediário/avançado e assim como na área de programação estou sempre tentando evoluir meu conhecimento em linguas estrangeiras. Atualmente estou em busca de um trabalho na area de programação front-end, tendo como objetivo crescer na área e ampliar meu conhecimento em programação.",
+    "aboutme-text-two" : "Em 2022 realizei um estágio de programação Web na empresa INOV Sistemas em São Leopoldo e estudei programação em cursos externos. Também possuo nível de inglês intermediário/avançado e assim como na área de programação estou sempre tentando evoluir meu conhecimento em línguas estrangeiras. Atualmente estou em busca de um trabalho na área de programação front-end, tendo como objetivo crescer na área e ampliar meu conhecimento em programação.",
 
     "aboutme-certificates" : "Certificados",
     "aboutme-certificates-toefl" : "Certificado do TOEFL Junior - 2018",
@@ -46,18 +46,27 @@
 
     "aboutme-text-three" : "No meu tempo livre gosto de fazer diversas coisas como escutar música, desenhar, fazer artesanato e patinar. Tenho um gosto muito variado quando se trata de gênero de séries, filmes e músicas.",
 
-    "aboutme-text-four" : "Gosto de usar minha criatividade no meu dia a dia para encontrar soluções para os problemas que enfrento e para criar coisas novas. Este portifólio foi feito com o objetivo de mostrar minhas habilidades de programação e divulgar os projetos que já tenho mas também foi pensado em uma forma de passar visualmente um pouco dos meus gostos e um pouco de mim para quem estivesse visualizando a página.",
+    "aboutme-text-four" : "Gosto de usar minha criatividade no meu dia a dia para encontrar soluções para os problemas que enfrento e para criar coisas novas. Este portfolio foi feito com o objetivo de mostrar minhas habilidades de programação e divulgar os projetos que já tenho mas também foi pensado em uma forma de passar visualmente um pouco dos meus gostos e um pouco de mim para quem estivesse visualizando a página.",
 
     "aboutme-instagram" : "Se quiser conhecer mais sobre minha vida pessoal você pode me seguir no",
 
     // MY PROJECTS
-    "series.show-description" : "Esse projeto foi um trabalho realizado em uma das matérias de programação do curso técnico em informática do IFSul e também utilizei de alguns recursos que aprendi no curso de programação Web da SoftBlue.",
+    "series.show-about" : "Esse projeto foi um trabalho realizado em uma das matérias de programação do curso técnico em informática do IFSul e também utilizei de alguns recursos que aprendi no curso de programação Web da SoftBlue.",
+    "series.show-technologies" : "Tecnologias utilizadas nesse projeto: HTML e CSS.",
 
     "tik-tok-project-title" : "PROJETO TIKTOK",
-    "tik-tok-project-description" : "Projeto realizado em conjunto com a JORNADA FULLSTACK da EBAC onde foi utilizado como base do projeto o aplicativo do TikTok. O objetivo do trabalho foi criar um clone do aplicativo utilizando React e realizando a sua integração com o banco de dados Firebase Cloud Firestore.",
+    "tik-tok-project-about" : "Projeto realizado em conjunto com a JORNADA FULLSTACK da EBAC onde foi utilizado como base do projeto o aplicativo do TikTok. O objetivo do trabalho foi criar um clone do aplicativo utilizando React e realizando a sua integração com o banco de dados Firebase Cloud Firestore.",
+    "tik-tok-project-technologies" : "Tecnologias utilizadas nesse projeto: React, Firebase, HTML, CSS e JavaScript.",
+    "tik-tok-project-description" : "Desenvolvimento: Este foi o meu primeiro projeto utilizando React, por este motivo tive algumas dificuldades na adaptação mas nada que logo fosse resolvido através das documentações.",
 
     "lpiii-project-title" : "TRABALHO DE LPIII",
-    "lpiii-project-description" : "Trabalho de PHP da aula Linguagem de Programação.",
+    "lpiii-project-about" : "Trabalho de PHP da aula Linguagem de Programação.",
+    "lpiii-project-technologies" : "Tecnologias utilizadas: PHP, CSS e HTML.",
+
+    "portfolio-project-title" : "Portfolio",
+    "portfolio-project-about" : "Este é o link para o repositório do GitHub onde estão os códigos deste portfolio.",
+    "portfolio-project-technologies" : "Tecnologias utilizadas: Vue, Vue-Router, Vuelidate, Vuetify, Vue-i18n, Firebase, CSS, JavaScript e HTML.",
+    "portfolio-project-description" : "Desenvolvimento: Para a construção do meu portfolio usei o Vue-i18n para conseguir possibilitar a sua exibição em duas línguas, o Vue-Router para criar as rotas do projeto, foi utilizado o Vuetify para estilizar os componentes das páginas e o Vuelidate para validar os formulários de criação de conta, alteração de email e exclusão de conta através dos recursos disponibilizados pelo Firebase que foram integrados ao projeto utilizando JavaScript. Algumas partes deste projeto ainda estão em desenvolvimento, pretende-se ainda implementar as validações de formulários em português e também adicionar o Vuex no trabalho para o controle do usuário e gerenciamento de tokens.",
 
     // FINAL PAPER
     "final-page-title" : "Meu TCC de Informática: SOS Helper",
@@ -77,7 +86,8 @@
     "delete-account" : "Excluir Conta",
     "save-changes" : "Salvar",
     "feedback": "Avaliação",
-    "leave-comment" : "Deixe um comentário abaixo sobre o portifólio e como ele pode ser melhorado.",
+    "leave-comment" : "Deixe um comentário abaixo sobre o portfolio e como ele pode ser melhorado.",
+    "login-required": "Para acessar esta página é necessário realizar o Login.",
 
     // DIALOGS
     "change-enter-password" : "Para salvar as alterações digite a sua senha.",

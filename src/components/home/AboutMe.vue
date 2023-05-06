@@ -3,9 +3,12 @@
         <v-card-title>{{ $t('aboutme-professionalinfo') }}:</v-card-title>
         <v-divider></v-divider>
         <v-card-text class="card__text-justify">
-            &nbsp; &nbsp; {{ $t('aboutme-text-one-start') }} {{ age }} {{ $t('aboutme-text-one') }}
+            {{ $t('aboutme-text-one-start') }} {{ age }} {{ $t('aboutme-text-one') }}
             <br>
-            &nbsp; &nbsp; {{ $t('aboutme-text-two') }}
+            <br>
+            {{ $t('aboutme-text-two') }}
+            <br>
+            <br>
             <div class="d-flex justify-center mt-4 mb-4">
                 <div class="aboutme__languages" style="background-color: #f89820;">Java</div>
                 <div class="aboutme__languages" style="background-color: #f7df1e;">JavaScript</div>
@@ -18,6 +21,7 @@
                 <div class="aboutme__languages" style="background-color: #f5820d;">Firebase Firestore</div>
                 <div class="aboutme__languages" style="background-color: #ffcb2b;">Firebase Authentication</div>
             </div>
+            <br>
             <v-divider></v-divider>
             <v-card-title>
                 {{ $t('aboutme-certificates') }}:
@@ -52,11 +56,13 @@
         </v-card-title>
         <v-divider></v-divider>
         <v-card-text class="card__text-justify">
-            &nbsp; &nbsp; {{ $t('aboutme-text-three') }}
+            {{ $t('aboutme-text-three') }}
             <br>
-            &nbsp; &nbsp; {{ $t('aboutme-text-four') }}
             <br>
-            &nbsp; &nbsp; {{ $t('aboutme-instagram') }} <a href="https://www.instagram.com/eliza.wbr/">Instagram</a>.
+            {{ $t('aboutme-text-four') }}
+            <br>
+            <br>
+            {{ $t('aboutme-instagram') }} <a href="https://www.instagram.com/eliza.wbr/">Instagram</a>.
         </v-card-text>
     </v-card>
 </template>

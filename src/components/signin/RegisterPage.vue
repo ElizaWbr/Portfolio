@@ -84,15 +84,13 @@ export default {
             this.v$.$validate() // checks all inputs
             if (!this.v$.$error) {
                 // if ANY fail validation
-                console.log('Formulário Aprovado.')
+                console.log('Approved form')
                 this.RegisterUser();
             } else {
                 console.log(this.v$)
             }
         },
         RegisterUser() {
-            console.log("Entrar " + this.state.fullName + " " + this.state.userEmail + " " + this.state.userPassword + " " + this.state.confirmPassword);
-
             firebase.auth().createUserWithEmailAndPassword(this.state.userEmail, this.state.userPassword)
             .then(data => {
                 setDoc(doc(db, "users", auth.currentUser.uid), {
