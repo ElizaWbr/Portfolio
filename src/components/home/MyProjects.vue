@@ -32,7 +32,7 @@
             </v-card-title>
             <v-card class="myprojects__card__link" elevation="8" rounded="lg">
                 <a href="https://tiktok---jornadadev-95aa8.web.app" class="myprojects__card__image">
-                    <v-img cover src="https://firebasestorage.googleapis.com/v0/b/portfolio-8240d.appspot.com/o/img%2FTikTok_Clone.png?alt=media&token=de592ce3-15cd-4ad5-b13e-5198fe28d7cb" alt="TikTok Clone preview">
+                    <v-img cover src="../../assets/img/cover/TikTok_Clone.png" alt="TikTok Clone preview">
                     </v-img>
                 </a>
             </v-card>
@@ -61,7 +61,7 @@
             </v-card-title>
             <v-card class="myprojects__card__link" elevation="8" rounded="lg">
                 <a href="https://github.com/ElizaWbr/Trabalho-de-LPII-PHP" class="myprojects__card__image">
-                    <v-img cover src="https://firebasestorage.googleapis.com/v0/b/portfolio-8240d.appspot.com/o/img%2FPHP_Project.png?alt=media&token=7a4f4300-4196-4401-875c-5db6343e85e8" alt="Projeto PHP no GitHub">
+                    <v-img cover src="../../assets/img/cover/PHP_Project.png" alt="Projeto PHP no GitHub">
                     </v-img>
                 </a>
             </v-card>
@@ -86,7 +86,7 @@
             </v-card-title>
             <v-card class="myprojects__card__link" elevation="8" rounded="lg">
                 <a href="https://github.com/ElizaWbr/Portfolio" class="myprojects__card__image">
-                    <v-img cover src="https://firebasestorage.googleapis.com/v0/b/portfolio-8240d.appspot.com/o/img%2FPortfolio-GitHub.png?alt=media&token=1d8152ff-22f1-4a56-8a0d-cceb41be1a04" alt="Projeto PHP no GitHub">
+                    <v-img cover src="../../assets/img/cover/Portfolio-GitHub.png" alt="Projeto PHP no GitHub">
                     </v-img>
                 </a>
             </v-card>
