@@ -6,7 +6,7 @@
             </v-card-title>
             <v-card class="myprojects__card__link" elevation="8" rounded="lg">
                 <a href="https://elizawbr.github.io/Series.Show/" class="myprojects__card__image">
-                    <v-img cover src="https://firebasestorage.googleapis.com/v0/b/portfolio-8240d.appspot.com/o/img%2FSeries.Show.png?alt=media&token=9271d919-42d2-4503-af43-774be2030231" alt="Series.Show home">
+                    <v-img cover src="../../assets/img/cover/Series.Show.png" alt="Series.Show home">
                     </v-img>
                 </a>
             </v-card>
