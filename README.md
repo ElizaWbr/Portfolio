@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### New deploys
+Delete old dist, run **npm run build** and MOVE files from dist to root
