@@ -29,6 +29,7 @@
     color: black;
     margin-bottom: 8px;
     margin-top: 8px;
+    width: -webkit-fill-available;
 }
 
 .main-class {

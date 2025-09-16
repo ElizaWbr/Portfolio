@@ -69,10 +69,10 @@
     "portfolio-project-description" : "Desenvolvimento: Para a construção do meu portfolio usei o Vue-i18n para conseguir possibilitar a sua exibição em duas línguas, o Vue-Router para criar as rotas do projeto, foi utilizado o Vuetify para estilizar os componentes das páginas e o Vuelidate para validar os formulários de criação de conta, alteração de email e exclusão de conta através dos recursos disponibilizados pelo Firebase que foram integrados ao projeto utilizando JavaScript. Algumas partes deste projeto ainda estão em desenvolvimento, pretende-se ainda implementar as validações de formulários em português e também adicionar o Vuex no trabalho para o controle do usuário e gerenciamento de tokens.",
 
     // FINAL PAPER
-    "final-page-title" : "Meu TCC de Informática: SOS Helper",
-    "final-page-text-one" : "No meu último ano no curso de informática do Instituto Federal Sul-Rio-Grandense, em 2023, foi realizado um trabalho de conclusão de curso. O trabalho se chama SOSHelper teve como objetivo principal proporcionar ao usuário auxílio e fácil acesso a entidades que possam ajudar em momentos difíceis como acidentes de carro ou domésticos, invasões, roubos, entre outras situações que necessitem de atenção imediata.",
-    "final-page-text-two" : "O sistema foi implementado utilizando o VueJS que é um framework progressivo para a construção de interfaces de usuário, baseado em HTML, CSS e JavaScript.",
-    "final-page-link" : "Link para o trabalho escrito:",
+    "final-paper-title" : "Meu TCC de Informática: SOS Helper",
+    "final-paper-text-one" : "No meu último ano no curso de informática do Instituto Federal Sul-Rio-Grandense, em 2023, foi realizado um trabalho de conclusão de curso. O trabalho se chama SOSHelper teve como objetivo principal proporcionar ao usuário auxílio e fácil acesso a entidades que possam ajudar em momentos difíceis como acidentes de carro ou domésticos, invasões, roubos, entre outras situações que necessitem de atenção imediata.",
+    "final-paper-text-two" : "O sistema foi implementado utilizando o VueJS que é um framework progressivo para a construção de interfaces de usuário, baseado em HTML, CSS e JavaScript.",
+    "final-paper-link" : "Link para o trabalho escrito:",
 
     // CONTACT
     "select-a-button" : "Para entrar em contato clique em algum dos botões abaixo",
