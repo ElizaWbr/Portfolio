@@ -10,7 +10,7 @@
                 <v-card-title class="page__title pt-4">{{ project.title }}</v-card-title>
                 <v-card class="myprojects__card__link" elevation="8" rounded="lg">
                     <a :href="`${project.url}`" class="myprojects__card__image" target="_blank">
-                        <v-img cover height="20vh" :src="`../../../img/cover/${project.img}`" :alt="`${project.title} home`">
+                        <v-img cover height="20vh" :src="`img/cover/${project.img}`" :alt="`${project.title} home`">
                         </v-img>
                     </a>
                 </v-card>
